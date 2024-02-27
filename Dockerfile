@@ -10,8 +10,6 @@ RUN if [ $? -ne 0 ]; then \
 
 # Check installed packages and utilities
 RUN dpkg -l | grep apache2
-RUN which curl
-RUN which sudo
 
 # Error and Exception Handling
 RUN if [ $? -ne 0 ]; then \
