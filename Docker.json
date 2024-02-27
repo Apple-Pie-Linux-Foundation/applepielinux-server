@@ -1,0 +1,8 @@
+{
+   "Docker": {
+        
+      "DockerImage.Version": "1.0.0"
+      "DockerImage.Name": "applepielinux-server"
+      "Docker.Scout: "Enable"
+   }
+}
